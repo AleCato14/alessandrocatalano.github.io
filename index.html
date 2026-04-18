@@ -30,6 +30,21 @@
             border-top: 1px solid #eee;
             padding-top: 20px;
         }
+        .profile-pic {
+        float: right;          
+        width: 20%;            
+        aspect-ratio: 1 / 1;   
+        object-fit: cover;     
+        margin-left: 20px;     
+        margin-bottom: 10px;   
+        border-radius: 4px;    
+        }
+
+        main::after {
+        content: "";
+        display: table;
+        clear: both;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +54,8 @@
     </header>
 
     <main>
+        <img src="foto-profilo.jpg" alt="Foto di [Tuo Nome]" class="profile-pic">
+        
         <p class="description">
             Welcome on my webpage! I am a first year PhD Student in Economics at Sapienza University of Rome. 
         </p>
