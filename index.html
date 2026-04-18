@@ -30,16 +30,16 @@
             border-top: 1px solid #eee;
             padding-top: 20px;
         }
-            .profile-pic {
+        .profile-pic {
         float: right;
-        width: 15%;        /* Prova a scendere al 15% */
-        min-width: 100px;  /* Non farla diventare troppo piccola */
-        max-width: 140px;  /* Non farla diventare troppo grande */
-        
+        width: 80px; 
         aspect-ratio: 1 / 1;
         object-fit: cover;
         margin-left: 20px;
-    }
+        margin-bottom: 10px;
+        border-radius: 5px; /* Un tocco di arrotondamento */
+        border: 1px solid #eee; /* Bordo quasi invisibile per rifinire i margini */
+        }
         main::after {
         content: "";
         display: table;
@@ -60,7 +60,7 @@
     </header>
 
     <main>
-        <img src="profile_pic.jpg" alt="Foto di Alessandro Catalano class="profile-pic">
+        <img src="profile_pic.jpg" class="profile-pic">
         
         <p class="description">
             Welcome on my webpage! I am a first year PhD Student in Economics at Sapienza University of Rome. 
