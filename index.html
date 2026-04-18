@@ -30,18 +30,16 @@
             border-top: 1px solid #eee;
             padding-top: 20px;
         }
-        .profile-pic {
+            .profile-pic {
         float: right;
-        width: 130px; 
+        width: 15%;        /* Prova a scendere al 15% */
+        min-width: 100px;  /* Non farla diventare troppo piccola */
+        max-width: 140px;  /* Non farla diventare troppo grande */
         
         aspect-ratio: 1 / 1;
         object-fit: cover;
-        margin-left: 25px;
-        margin-bottom: 15px;
-        border-radius: 8px; 
-        border: 1px solid #ddd; 
-        }
-
+        margin-left: 20px;
+    }
         main::after {
         content: "";
         display: table;
